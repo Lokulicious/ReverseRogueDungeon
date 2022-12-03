@@ -4,191 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3d222a-b304-48ad-a232-3d08ea3d4202" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/ConsoleProDebug.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/ConsoleProDebug.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Editor Console Pro Documentation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Editor Console Pro Documentation.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Editor/ConsolePro.Editor.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Editor/ConsolePro.Editor.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/ConsoleProRemoteServer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/ConsoleProRemoteServer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/BaseChannel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/BaseChannel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/ConnectionRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/ConnectionRequest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/INetEventListener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/INetEventListener.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Layers.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Layers/Crc32cLayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Layers/Crc32cLayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Layers/PacketLayerBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Layers/PacketLayerBase.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Layers/XorEncryptLayer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Layers/XorEncryptLayer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/LiteNetLib.csproj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NatPunchModule.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NatPunchModule.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetConstants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetConstants.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetDebug.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetDebug.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetPacket.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetPacket.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetPacketPool.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetPacketPool.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetPeer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetPeer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetSocket.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetSocket.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetStatistics.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetStatistics.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetUtils.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/NetUtils.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/ReliableChannel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/ReliableChannel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/SequencedChannel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/SequencedChannel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/CRC32C.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/CRC32C.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/FastBitConverter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/FastBitConverter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/INetSerializable.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/INetSerializable.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NetDataReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NetDataReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NetDataWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NetDataWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NetPacketProcessor.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NetPacketProcessor.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NetSerializer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NetSerializer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NtpPacket.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NtpPacket.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NtpRequest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/ConsolePro/Remote/LiteNetLib/Utils/NtpRequest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/Lit2DSceneTemplate.scenetemplate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/Lit2DSceneTemplate.scenetemplate.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/Renderer2D.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/Renderer2D.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/Scenes/URP2DSceneTemplate.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/Scenes/URP2DSceneTemplate.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/UniversalRP.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/Settings/UniversalRP.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/Pipeline/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/After.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/After.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Cmd.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Cmd.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/DisableSceneView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/DisableSceneView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Displays.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Displays/DisplayInfo.windows.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Displays/DisplayInfo.windows.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Disposables.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Disposables.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FixGameViewMouseInput.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FixGameViewMouseInput.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Fullscreen.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Fullscreen.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenCallbacks.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenCallbacks.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenContainer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenContainer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenContainerInternal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenContainerInternal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenOnPlay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenOnPlay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenPreferences.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenPreferences.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenRects.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenRects.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenUtility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenUtility.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenView.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenView.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/FullscreenWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/GameViewLowResolutionAspectRatios.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/GameViewLowResolutionAspectRatios.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/GameViewVSync.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/GameViewVSync.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/GlobalToolbarHiding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/GlobalToolbarHiding.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Integration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Integration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/InternalTypes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/InternalTypes.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/KeepFullscreenBelow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/KeepFullscreenBelow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Linux.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Linux/NativeFullscreenHook.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Linux/NativeFullscreenHook.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Linux/wmctrl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Linux/wmctrl.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Logger.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Logger.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/MenuItems.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/MenuItems.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Patcher.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Patcher.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/PlaceholderWindow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/PlaceholderWindow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/PrefItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/PrefItem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/ReflectionUtility.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/ReflectionUtility.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Shortcut.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Shortcut.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/ViewPyramid.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/ViewPyramid.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows/GDI32.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows/GDI32.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows/ShCore.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows/ShCore.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows/Structs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows/Structs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows/User32.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Editor/Windows/User32.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/FullscreenEditor.asmdef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/FullscreenEditor.asmdef.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Readme.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fullscreen/Readme.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Attribute Processors.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Custom Drawers.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Editor Windows.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Demos/Sample - RPG Editor.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Levels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestSceneNick.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestSceneNick.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs.meta" beforeDir="false" />
+    <list default="true" id="2c3d222a-b304-48ad-a232-3d08ea3d4202" name="Changes" comment="folder structure">
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,7 +88,7 @@
       <workItem from="1669906923813" duration="3829000" />
       <workItem from="1669968505885" duration="6771000" />
       <workItem from="1669990475931" duration="987000" />
-      <workItem from="1670066739669" duration="10000" />
+      <workItem from="1670066739669" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="editor config">
       <created>1669901312928</created>
@@ -307,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669975288136</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="folder structure">
+      <created>1670066825690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670066825690</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +159,8 @@
     <MESSAGE value="rider update" />
     <MESSAGE value="editor config changes" />
     <MESSAGE value="moved test to scratches" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved test to scratches" />
+    <MESSAGE value="folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="folder structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
