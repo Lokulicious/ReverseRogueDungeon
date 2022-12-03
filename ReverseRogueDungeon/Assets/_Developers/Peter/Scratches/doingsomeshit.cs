@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
+
 
 public class doingsomeshit : MonoBehaviour
 {
@@ -15,4 +19,11 @@ public class doingsomeshit : MonoBehaviour
     {
         
     }
+
+    async UniTask Test()
+    {
+        await UniTask.Delay(500);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Main"));
+    }
+
 }

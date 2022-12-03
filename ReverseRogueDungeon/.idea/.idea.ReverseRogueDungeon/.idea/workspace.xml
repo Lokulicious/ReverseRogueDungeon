@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3d222a-b304-48ad-a232-3d08ea3d4202" name="Changes" comment="folder structure">
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+    <list default="true" id="2c3d222a-b304-48ad-a232-3d08ea3d4202" name="Changes" comment="unitask">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ReverseRogueDungeon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReverseRogueDungeon/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Developers/Peter/Scratches/doingsomeshit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Developers/Peter/Scratches/doingsomeshit.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <workItem from="1669906923813" duration="3829000" />
       <workItem from="1669968505885" duration="6771000" />
       <workItem from="1669990475931" duration="987000" />
-      <workItem from="1670066739669" duration="354000" />
+      <workItem from="1670066739669" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="editor config">
       <created>1669901312928</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670066825690</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="unitask">
+      <created>1670067247364</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670067247364</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +167,8 @@
     <MESSAGE value="editor config changes" />
     <MESSAGE value="moved test to scratches" />
     <MESSAGE value="folder structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="folder structure" />
+    <MESSAGE value="unitask" />
+    <option name="LAST_COMMIT_MESSAGE" value="unitask" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
