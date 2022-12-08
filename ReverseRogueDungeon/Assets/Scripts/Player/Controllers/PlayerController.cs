@@ -84,6 +84,11 @@ public class PlayerController : MonoBehaviour
     }
 
 
+    public Vector3 GetMoveDirection()
+    {
+        return moveDir;
+    }
+
 
     void MovePlayer()
     {

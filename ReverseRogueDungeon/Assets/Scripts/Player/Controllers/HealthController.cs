@@ -57,6 +57,13 @@ public class HealthController : MonoBehaviour
         }
     }
 
+    private void UpdateHealthBar()
+    {
+        var rectTransform = (RectTransform)HealthBar.transform;
+        var parentRectTransform = (RectTransform)rectTransform.parent.transform;
+
+        rectTransform.sizeDelta = new Vector2(parentRectTransform.rect.width * health / maxHealth, parentRectTransform.rect.height);
+    }
 
     IEnumerator ColorCharacter(float colorTime, Color color)
     {
