@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WeaponMovementController : MonoBehaviour
+public class WeaponTargetController : MonoBehaviour
 {
     [Title("Settings")]
     [SerializeField] float floatOffset;
@@ -50,7 +50,8 @@ public class WeaponMovementController : MonoBehaviour
 
     void MoveToBack()
     {
-        weapon.transform.localPosition = Vector3.Lerp(weapon.transform.localPosition, floatPos, moveSpeed);
+        weapon.transform.localPosition = floatPos;
+        //weapon.transform.localPosition = Vector3.Lerp(weapon.transform.localPosition, floatPos, moveSpeed);
     }
 
 }
