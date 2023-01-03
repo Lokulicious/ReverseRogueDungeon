@@ -1,6 +1,7 @@
 using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ public class WeaponMovementController : MonoBehaviour
     [SerializeField] float acceleration;
     [SerializeField] float decceleration;
     [SerializeField] float velPower;
+    [SerializeField] float smoothTime = 10;
 
     [Title("References")]
     [SerializeField] Transform floatTarget;
@@ -21,22 +23,29 @@ public class WeaponMovementController : MonoBehaviour
     Vector3 movementVel;
 
 
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        floatPosDirection = floatTarget.position - transform.position;
     }
 
     private void Update()
     {
         CheckDistanceToFloat();
+
     }
 
     Vector3 GetFloatDirection()
     {
-        floatPosDirection = floatTarget.position - transform.position;
-        Debug.Log(floatPosDirection.magnitude);
-        return floatPosDirection;
+
+        return floatTarget.position - transform.position;
+
+       
+
+        //return floatPosDirection;
     }
+
 
     void CheckDistanceToFloat()
     {
@@ -48,23 +57,33 @@ public class WeaponMovementController : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
         }
+
     }
 
     void MoveToTarget()
     {
-        float targetSpeedHorizontal = GetFloatDirection().normalized.x * moveSpeed;
-        float targetSpeedVertical = GetFloatDirection().normalized.y * moveSpeed;
-        float speedDifX = targetSpeedHorizontal - rb.velocity.x;
-        float speedDifY = targetSpeedVertical - rb.velocity.y;
-        float accelRateX = (Mathf.Abs(speedDifX) > 0.01f) ? acceleration : decceleration;
-        float accelRateY = (Mathf.Abs(speedDifY) > 0.01f) ? acceleration : decceleration;
+        /*        float targetSpeedHorizontal = GetFloatDirection().normalized.x * moveSpeed;
+                float targetSpeedVertical = GetFloatDirection().normalized.y * moveSpeed;
+                float speedDifX = targetSpeedHorizontal - rb.velocity.x;
+                float speedDifY = targetSpeedVertical - rb.velocity.y;
+                float accelRateX = (Mathf.Abs(speedDifX) > 0.01f) ? acceleration : decceleration;
+                float accelRateY = (Mathf.Abs(speedDifY) > 0.01f) ? acceleration : decceleration;
 
-        float movementX = Mathf.Pow(Mathf.Abs(speedDifX) * accelRateX, velPower) * Mathf.Sign(speedDifX);
-        float movementY = Mathf.Pow(Mathf.Abs(speedDifY) * accelRateY, velPower) * Mathf.Sign(speedDifY);
+                float movementX = Mathf.Pow(Mathf.Abs(speedDifX) * accelRateX, velPower) * Mathf.Sign(speedDifX);
+                float movementY = Mathf.Pow(Mathf.Abs(speedDifY) * accelRateY, velPower) * Mathf.Sign(speedDifY);
 
-        movementVel.x = movementX * Vector2.right.x;
-        movementVel.y = movementY * Vector2.up.y;
+                movementVel.x = movementX * Vector2.right.x;
+                movementVel.y = movementY * Vector2.up.y;
 
-        rb.AddForce(movementVel);
+                rb.AddForce(movementVel);*/
+
+        transform.position = Vector3.Lerp(transform.position, new Vector3(
+            floatTarget.position.x - (transform.forward.x * floatOffset),
+            floatTarget.position.y - (transform.forward.y * floatOffset),
+            floatTarget.position.z),
+            Time.deltaTime * smoothTime);
+
+
+        //Debug.Log(floatPosDirection.magnitude);
     }
 }

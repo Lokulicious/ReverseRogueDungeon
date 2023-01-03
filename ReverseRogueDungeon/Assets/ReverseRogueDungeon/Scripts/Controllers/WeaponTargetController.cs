@@ -11,7 +11,7 @@ public class WeaponTargetController : MonoBehaviour
 
     [Title("References")]
     [SerializeField] GameObject player;
-    [SerializeField] GameObject weapon;
+    [SerializeField] GameObject target;
     private PlayerController playerController;
 
     Vector3 playerMoveDir;
@@ -38,19 +38,22 @@ public class WeaponTargetController : MonoBehaviour
     void SetFloatTarget()
     {
         playerMoveDir = playerController.GetMoveDirection();
-        back.x = playerMoveDir.x;
+        back.x = -playerMoveDir.x;
         back.y = -playerMoveDir.y;
-
         if (back.magnitude > 0.05f)
         {
             floatPos = back.normalized * floatOffset;
         }
     }
 
+    public Vector3 GetTarget()
+    {
+        return floatPos;
+    }
 
     void MoveToBack()
     {
-        weapon.transform.localPosition = floatPos;
+        target.transform.localPosition = floatPos;
         //weapon.transform.localPosition = Vector3.Lerp(weapon.transform.localPosition, floatPos, moveSpeed);
     }
 

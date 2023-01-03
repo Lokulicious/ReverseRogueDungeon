@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        FlipTowardsMouse();
+        //FlipTowardsMouse();
         //UpdateAnimations();
     }
 
