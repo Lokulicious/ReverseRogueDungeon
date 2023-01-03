@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3d222a-b304-48ad-a232-3d08ea3d4202" name="Changes" comment="unitask">
+    <list default="true" id="2c3d222a-b304-48ad-a232-3d08ea3d4202" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Enum.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Interfaces.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Managers/Manager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Managers/Manager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Managers/PreloadSceneManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Managers/PreloadSceneManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Managers/RoomsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Managers/RoomsManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Models/Door.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Models/Door.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Models/Room.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Models/Room.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developers/Peter/Scratches/SceneTesting.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Developers/Peter/Scratches/SceneTesting.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReverseRogueDungeon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReverseRogueDungeon/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Developers/Peter/Scratches/doingsomeshit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Developers/Peter/Scratches/doingsomeshit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Developers/Peter/Debug.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Developers/Peter/Debug.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +37,14 @@
         <entry key="$PROJECT_DIR$/.." value="peter" />
       </map>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d3dacd00ce441dc8c61d528a2193088158400/60/d0f08979/AsyncOperation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d3dacd00ce441dc8c61d528a2193088158400/a4/52182642/RangeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d3dacd00ce441dc8c61d528a2193088158400/c2/7e4d3466/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c599fa8297404439b0545aff3394973185e00/14/f02f715d/UniTaskStatus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@c7eedf85c7/Runtime/UniTask.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@c7eedf85c7/Runtime/UnityAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,6 +65,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -88,7 +115,11 @@
       <workItem from="1669906923813" duration="3829000" />
       <workItem from="1669968505885" duration="6771000" />
       <workItem from="1669990475931" duration="987000" />
-      <workItem from="1670066739669" duration="1352000" />
+      <workItem from="1670066739669" duration="12069000" />
+      <workItem from="1670082682895" duration="11362000" />
+      <workItem from="1670500665475" duration="814000" />
+      <workItem from="1670501668550" duration="8764000" />
+      <workItem from="1672749048284" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="editor config">
       <created>1669901312928</created>
@@ -139,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670067247364</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="testing unitask">
+      <created>1670068357853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670068357853</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +206,8 @@
     <MESSAGE value="moved test to scratches" />
     <MESSAGE value="folder structure" />
     <MESSAGE value="unitask" />
-    <option name="LAST_COMMIT_MESSAGE" value="unitask" />
+    <MESSAGE value="testing unitask" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing unitask" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
