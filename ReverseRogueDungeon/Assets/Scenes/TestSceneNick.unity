@@ -586,7 +586,7 @@ MonoBehaviour:
   acceleration: 50
   decceleration: 50
   velPower: 1
-  smoothTime: 10
+  smoothTime: 2
   floatTarget: {fileID: 1331464256}
 --- !u!212 &2079638049
 SpriteRenderer:
