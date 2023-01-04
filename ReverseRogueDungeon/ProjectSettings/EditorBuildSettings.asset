@@ -5,7 +5,25 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/ReverseRogueDungeon/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 0
+    path: Assets/_Developers/Peter/Debug.unity
+    guid: 95539d6746c25e143809545f245c9382
+  - enabled: 0
+    path: Assets/_Developers/Peter/Test.unity
+    guid: 0c8a05eff983a4943b1a83fb6a4fbe11
+  - enabled: 0
+    path: Assets/_Developers/Peter/Test2.unity
+    guid: f5a661c60c143524591d4794f8b72efa
+  - enabled: 1
+    path: Assets/_Developers/Peter/scene switch/PreLoad.unity
+    guid: 57073d2480a2d4a43bf10fb5544d5b72
+  - enabled: 1
+    path: Assets/_Developers/Peter/scene switch/MiddleScene.unity
+    guid: b454e4a1f32117047bcfd3d87042b842
+  - enabled: 1
+    path: Assets/_Developers/Peter/scene switch/EastScene.unity
+    guid: aa3adafd5d89a8745b1178bce101ae7a
   m_configObjects: {}
