@@ -13,63 +13,61 @@ namespace ReverseRogueDungeon.Scripts.Managers
 {
     public class RoomsManager : Manager<RoomsManager>
     {
-        private Vector2Int position = new Vector2Int(4,4);
+        private Vector2Int position = new Vector2Int(1,0);
         private Room[,] world;
         private Room currentRoom => world[position.x, position.y];
 
+        [Header("test")]
+        public Room StartRoom;
+        public Room EastRoom;
+
         private void Start()
         {
-            var random = new Random();
-            var seed = random.Next();
-            Debug.Log($"Seed: {seed}");
-            var worldGenerator = new RoomWorldGenerator(seed);
-            world = worldGenerator.newWorld(8, 8);
-
+            // var random = new Random();
+            // var seed = random.Next();
+            // Debug.Log($"Seed: {seed}");
+            // var worldGenerator = new RoomWorldGenerator(seed);
+            // world = worldGenerator.newWorld(8, 8);
+            world = new Room[2,1];
+            world[0, 0] = StartRoom;
+            world[1, 0] = EastRoom;
+            
+            LoadScene();
         }
 
         public void MoveUp()
         {
-            UnloadScene();
+            if (position.y == world.GetLength(1)) return ;
             position.y++;
             LoadScene();
         }
 
-        public void  MoveDown()
+        public void MoveDown()
         {
-            UnloadScene();
+            if (position.y == 0) return;
             position.y--;
             LoadScene();
         }
         
         public void MoveLeft()
         {
-            UnloadScene();
+            if (position.x == 0) return;
             position.x--;
             LoadScene();
         }
         
         public void MoveRight()
         {
-            UnloadScene();
+            if (position.x == world.GetLength(0)) ;
             position.x++;
             LoadScene();
         }
 
-        private void LoadScene()
+        private async UniTask LoadScene()
         {
-            currentRoom.Down.OnTriggerEnterEvent.AddListener(MoveDown);
-            currentRoom.Up.OnTriggerEnterEvent.AddListener(MoveUp);
-            currentRoom.Left.OnTriggerEnterEvent.AddListener(MoveLeft);
-            currentRoom.Right.OnTriggerEnterEvent.AddListener(MoveRight);
-            SceneManager.LoadScene(currentRoom.Scene.handle);
-        }
-        
-        private void UnloadScene()
-        {
-            currentRoom.Down.OnTriggerEnterEvent.RemoveListener(MoveDown);
-            currentRoom.Up.OnTriggerEnterEvent.RemoveListener(MoveUp);
-            currentRoom.Left.OnTriggerEnterEvent.RemoveListener(MoveLeft);
-            currentRoom.Right.OnTriggerEnterEvent.RemoveListener(MoveRight);
+            Debug.Log($"LoadScene {position.ToString()} {currentRoom.SceneName}");
+            Debug.Log($"VALID SCENE: {SceneManager.GetSceneByName($"_Developers/Peter/scene switch/{currentRoom.SceneName}").IsValid()}");
+            await SceneManager.LoadSceneAsync($"_Developers/Peter/scene switch/{currentRoom.SceneName}");
         }
     }
 }
