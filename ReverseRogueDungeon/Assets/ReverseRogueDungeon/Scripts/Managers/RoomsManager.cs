@@ -65,9 +65,7 @@ namespace ReverseRogueDungeon.Scripts.Managers
 
         private async UniTask LoadScene()
         {
-            Debug.Log($"LoadScene {position.ToString()} {currentRoom.SceneName}");
-            Debug.Log($"VALID SCENE: {SceneManager.GetSceneByName($"_Developers/Peter/scene switch/{currentRoom.SceneName}").IsValid()}");
-            await SceneManager.LoadSceneAsync($"_Developers/Peter/scene switch/{currentRoom.SceneName}");
+            await SceneManager.LoadSceneAsync(currentRoom.SceneName);
         }
     }
 }

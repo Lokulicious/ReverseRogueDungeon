@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c3d222a-b304-48ad-a232-3d08ea3d4202" name="Changes" comment="fixed small compile issue">
+    <list default="true" id="2c3d222a-b304-48ad-a232-3d08ea3d4202" name="Changes" comment="made it possible to switch scenes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ReverseRogueDungeon/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ReverseRogueDungeon/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Managers/RoomsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Managers/RoomsManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Models/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Models/Door.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Models/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ReverseRogueDungeon/Scripts/Models/Room.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d3dacd00ce441dc8c61d528a2193088158400/a4/52182642/RangeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1d3dacd00ce441dc8c61d528a2193088158400/c2/7e4d3466/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/c599fa8297404439b0545aff3394973185e00/14/f02f715d/UniTaskStatus.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Documents/gitprojects/ReverseRogueDungeon/ReverseRogueDungeon/Assets/ReverseRogueDungeon/Scripts/Models/Door.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Documents/gitprojects/ReverseRogueDungeon/ReverseRogueDungeon/Assets/_Developers/Peter/Debug.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@c7eedf85c7/Runtime/UniTask.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cysharp.unitask@c7eedf85c7/Runtime/UnityAsyncExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -107,7 +103,7 @@
       <workItem from="1670082682895" duration="11362000" />
       <workItem from="1670500665475" duration="814000" />
       <workItem from="1670501668550" duration="8764000" />
-      <workItem from="1672749048284" duration="14515000" />
+      <workItem from="1672749048284" duration="15146000" />
     </task>
     <task id="LOCAL-00001" summary="editor config">
       <created>1669901312928</created>
@@ -172,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672749719589</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="made it possible to switch scenes">
+      <created>1672836981708</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672836981708</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +206,8 @@
     <MESSAGE value="unitask" />
     <MESSAGE value="testing unitask" />
     <MESSAGE value="fixed small compile issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed small compile issue" />
+    <MESSAGE value="made it possible to switch scenes" />
+    <option name="LAST_COMMIT_MESSAGE" value="made it possible to switch scenes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
